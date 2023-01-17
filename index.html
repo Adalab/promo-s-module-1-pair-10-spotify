@@ -5,109 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <header>
-        <div><!-- Rectángulo negro -->
-            <div> <!-- Logo Spotify -->
-                <a href="https://www.spotify.com/es/" class="">Spotify</a>      
-            </div>
-            <div> <!-- Menú -->
-                <button>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-        </div> 
+<body class="body">
+    <header class="header">
+                <a title="Spotify" href="https://open.spotify.com/?"><img src="./html-spotify/images/logo.png" alt="logo" /></a>
+            <nav class="menu">
+                <a title="Menu" href="https://open.spotify.com/?"><img src="./html-spotify/images/menu-icon.png" alt="menu"></a>
+            </nav>
     </header>
-    <main>
-        <section>
-            <article>
-                <header>
-                    <div>
+    <main class="main">
+        <section class="container-blue">
                         <h1>Prueba Premium gratis 3 meses</h1>
-                    </div>
-                    <div>
                         <h2>Escucha millones de canciones sin anuncios, a la carta y sin conexión.</h2>
-                    </div>
-                    <div>
-                        <a href="">
-                            <div>
-                               <span>VER PLANES</span> 
-                            </div>
-                        </a>
-                    </div>
-                    <footer>
-                        <p>Rigen términos y condiciones. Los tres meses gratis no están disponibles para usuarios que ya hayan probado Premium.</p>
-                    </footer>
-                </header>
-            </article>
+                        <a href="">VER PLANES</a>
+                        <small>Rigen términos y condiciones. Los tres meses gratis no están disponibles para usuarios que ya hayan probado Premium.</small>
         </section>
-        <section>
-            <article>
-                <header>
+        <section class="container-white">
+        
                     <h2>¿Por qué pasarte a Premium?</h2>
-                </header>
-                <ul>
-                    <li>
-                        <div></div> <!-- imagen -->
+                    <article>
+                        <a href=""></a>
                         <div>
-                            <p>Descarga música.</p>
+                            <h3>Descarga música.</h3>
                             <p>Llévala siempre contigo.</p>
                         </div>
-                    </li>
-                    <li>
-                        <div></div> <!-- imagen -->
+                    </article>
+                    <article>
+                        <a href=""></a>
                         <div>
-                            <p>Sin anuncios.</p>
+                            <h3>Sin anuncios.</h3>
                             <p>Disfruta de música sin interrupciones.</p>
                         </div>
-                    </li>
-                    <li>
-                        <div></div> <!-- imagen -->
+                    </article>
+                    <article>
+                        <a href=""></a>
                         <div>
-                            <p>Escucha lo que quieras</p>
+                            <h3>Escucha lo que quieras</h3>
                             <p>Incluso en el móvil.</p>
                         </div>
-                    </li>
-                    <li>
-                        <div></div> <!-- imagen -->
+                    </article>
+                    <article>
+                        <a href=""></a>
                         <div>
-                            <p>Salta todas las canciones que quieras.</p>
+                            <h3>Salta todas las canciones que quieras.</h3>
                             <p>Simplemente dale a siguiente.</p>
                         </div>
-                    </li>
-                </ul>
-            </article>
+                    </article>
         </section>
     </main>
-    <div>
-        <footer>
+    <footer class="footer">
             <nav>
                 <div>
                     <a href="">España</a>
+                    <a class="">© 2019 Spotify AB</a>
                 </div>
                 <div>
-                    <ul>
-                        <li>
-                            <div>
-                                <a href="">Legal</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="">Cookies</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <span class="svelte-1so9ic8">© 2019 Spotify AB</span>
-                </div>
-                <div>
-                    <a href="">Información sobre los anuncios</a>
+                    <nav>
+                        <ul>
+                            <li><a href="">Legal</a></li>
+                            <li><a href="">Cookies</a></li>
+                        </ul>
+                    </nav>
+                    <small>
+                        <a href="">Información sobre los anuncios</a>
+                    </small>
                 </div>
             </nav>
-        </footer>
-    </div>
+    </footer>
 </body>
 </html>
