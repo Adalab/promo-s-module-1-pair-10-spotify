@@ -1,0 +1,39 @@
+.container-white {
+    padding: 48px 15px 24px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 480px;
+    justify-content: center;
+    margin: 15px;
+
+    &-title {
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+    }
+    &__text {
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 15px;
+    }
+}
+
+.img {
+    height: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+
+

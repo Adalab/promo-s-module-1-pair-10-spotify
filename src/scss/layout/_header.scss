@@ -1,5 +1,16 @@
-.page__header {
+.header {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  background-color: $header--bg;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 54px;
+  padding: 15px;
+}
+
+.logo {
+  height: 100%;
+}
+
+.menu-img {
+  height: 100%;
 }
