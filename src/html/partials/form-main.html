@@ -1,0 +1,31 @@
+
+<main class="main__contact" id="main__contact">
+    <h1 class="title">CONTACTO</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam impedit earum sit aut officiis cupiditate, maxime veritatis nostrum voluptatum optio accusantium nulla illum cum est, perspiciatis doloremque voluptates quod quam!</p>
+    <small>Todos los campos marcados con * son obligatorios</small>
+    
+    <fieldset class="fieldset">
+    <form method="get" action="https://dev.adalab.es/api/form">
+        <label class="input__label" for="nombre">
+            Nombre completo
+            <span>*</span>
+            <input id="nombre" name="nombre" type="text" placeholder="Nombre..." required/>
+        </label>
+        <label class="input__label" for="email">
+            Email
+            <span>*</span>
+            <input id="email" name="email" type="email" placeholder="nombre.apellidos@mail.com" required/>
+        </label>
+        <label class="input__label" for="tlf">
+            Teléfono
+            <input id="tlf" name="tlf" type="tel" placeholder="Ej. 123456789" />
+        </label>
+        <label class="input__label" for="tlf">
+            Mensaje
+            <span>*</span>
+            <input id="comments" name="comments" type="textarea" placeholder="¿Qué necesitas?" rows="3"/>
+        </label>
+        <input type="submit" value="Enviar" />
+    </form>
+    </fieldset>
+</main>
